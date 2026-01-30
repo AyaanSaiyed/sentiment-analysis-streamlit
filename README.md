@@ -8,7 +8,7 @@ The application is built using **Streamlit** and **Hugging Face Transformers** a
 
 ## 🔗 Live Demo
 
-👉 **Click Here:** [Open Streamlit App]([https://YOUR-STREAMLIT-APP-LINK.streamlit.app](https://sentiment-analysis-app-gk3mqvnxymqtpl9yijb7ef.streamlit.app/))
+👉 **Click Here:** https://sentiment-analysis-app-gk3mqvnxymqtpl9yijb7ef.streamlit.app/
 
 ---
 
