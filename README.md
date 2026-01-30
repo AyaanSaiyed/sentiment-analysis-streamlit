@@ -1,19 +1,60 @@
-# Twitter Sentiment Analysis – Streamlit App
+# 🐦 Twitter Sentiment Analysis – Streamlit App
 
-This project is an **Unsupervised Machine Learning based Sentiment Analysis application** built using **Streamlit** and **Hugging Face Transformers**.
+An **Unsupervised Machine Learning–based Sentiment Analysis web application** built using **Streamlit** and **Hugging Face Transformers**.  
+The app analyzes tweets and classifies them into **Positive, Neutral, or Negative** sentiments with confidence scores.
 
-## 🔍 Features
-- Demo tweets sentiment analysis
-- Custom tweet sentiment analysis
-- Sentiment visualization using pie chart
-- Confidence score display
+---
+
+## 🔗 Live Demo
+👉 **Click Here to Open App**: [https://YOUR-STREAMLIT-APP-LINK.streamlit.app](https://sentiment-analysis-app-gk3mqvnxymqtpl9yijb7ef.streamlit.app/)
+
+
+
+---
+
+## 📌 Project Overview
+
+This project uses a **pre-trained transformer model** to perform sentiment analysis on Twitter-style text.  
+It provides an interactive dashboard where users can:
+- View sentiment analysis on sample (demo) tweets
+- Analyze sentiment of custom user-input tweets
+- Visualize sentiment distribution using charts
+
+---
+
+## ✨ Features
+
+- 📊 **Demo Tweet Sentiment Analysis**
+- ✍️ **Custom Tweet Sentiment Analysis**
+- 😊 **3-Class Classification**: Positive, Neutral, Negative
+- 📈 **Interactive Pie Chart Visualization**
+- 📋 **Confidence Score Display**
+- ⚡ Fast and interactive UI using Streamlit
+
+---
 
 ## 🧠 Model Used
-- cardiffnlp/twitter-roberta-base-sentiment-latest
 
-## 🚀 How to Run the Project
+- **Model:** `cardiffnlp/twitter-roberta-base-sentiment-latest`
+- **Type:** Pre-trained Transformer (Hugging Face)
+- **Approach:** Unsupervised (no custom training data required)
 
-```bash
-pip install -r requirements.txt
-streamlit run sentiment.py
-🔗 **Live Demo:** [Click Here](https://sentiment-analysis-streamlit-xxxx.streamlit.app)
+---
+
+## 🛠️ Technologies & Libraries
+
+- **Python**
+- **Streamlit**
+- **Transformers (Hugging Face)**
+- **PyTorch**
+- **Pandas**
+- **Plotly**
+
+---
+
+## 📂 Project Structure
+sentiment-analysis-streamlit/
+├── sentiment.py # Main Streamlit application file
+├── requirements.txt # List of required Python dependencies
+└── README.md # Project documentation
+
