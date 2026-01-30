@@ -16,3 +16,4 @@ This project is an **Unsupervised Machine Learning based Sentiment Analysis appl
 ```bash
 pip install -r requirements.txt
 streamlit run sentiment.py
+🔗 **Live Demo:** [Click Here](https://sentiment-analysis-streamlit-xxxx.streamlit.app)
