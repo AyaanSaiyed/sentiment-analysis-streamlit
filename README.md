@@ -51,10 +51,8 @@ It provides an interactive dashboard where users can:
 - **Plotly**
 
 ---
-
-## 📂 Project Structure
 sentiment-analysis-streamlit/
-├── sentiment.py # Main Streamlit application file
-├── requirements.txt # List of required Python dependencies
-└── README.md # Project documentation
+├── sentiment.py
+├── requirements.txt
+└── README.md
 
