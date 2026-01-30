@@ -51,8 +51,3 @@ It provides an interactive dashboard where users can:
 - **Plotly**
 
 ---
-sentiment-analysis-streamlit/
-├── sentiment.py
-├── requirements.txt
-└── README.md
-
